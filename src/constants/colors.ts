@@ -1,0 +1,58 @@
+import {BORDER_WIDTH, SPACING} from './dimensions';
+
+export const COLORS = {
+  DARK: '#000000',
+  WHITE: '#FFFFFF',
+  PRIMARY: '#B8FE03',
+  DANGER: '#FE0101',
+  SECONDARY: '#989898',
+  TERTIARY: '#1C1C1C',
+  QUATERNARY: '#505050',
+  GRAY: '#686B70',
+} as const;
+
+export const COMPONENT_COLORS = {
+  BUTTON: {
+    BACKGROUND: '#0D0D0D',
+    BORDER: '#272727',
+    TEXT: COLORS.WHITE,
+    DISABLED: '#272727',
+  },
+  PRIMARY_BUTTON: {
+    BACKGROUND: COLORS.PRIMARY,
+    TEXT: COLORS.DARK,
+    DISABLED: '#5A7C00',
+  },
+} as const;
+
+export const BORDER_COLORS = {
+  DEFAULT: '#393939',
+  LIGHT: '#272727',
+  SECONDARY: '#2A2A2A',
+  TERTIARY: '#292929',
+} as const;
+
+export const NOTIFICATION = {
+  SUCCESS: {
+    BACKGROUND: '#003C00',
+    TEXT: '#13FA19',
+  },
+  DANGER: {
+    BACKGROUND: '#501518',
+    TEXT: '#FE0101',
+  },
+  WARNING: {
+    BACKGROUND: '#905202',
+    TEXT: '#FF9202',
+  },
+} as const;
+
+export const CARD_COLORS = {
+  BACKGROUND: '#121212',
+  SECONDARY: COLORS.TERTIARY,
+  BORDER: BORDER_COLORS.LIGHT,
+  BORDER_WIDTH: BORDER_WIDTH.DEFAULT,
+  // TEXT: COLORS.WHITE,
+  // SHADOW: '#000000',
+  // SHADOW_OPACITY: '0.2',
+};

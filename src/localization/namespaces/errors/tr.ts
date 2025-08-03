@@ -1,0 +1,33 @@
+export default {
+  error: 'HATA',
+  unknownError: 'Bilinmeyen bir hata oluştu.',
+  context: '{{context}} {{context}}Provider içinde kullanılmalıdır',
+  mustSelectFirstPortfolio: 'Öncelikle bir portföy türü seçmelisiniz.',
+  unsupportedURL: 'Bu URL desteklenmiyor.',
+  selectPhoto: 'Fotoğraf seçilirken bir hata oluştu.',
+  clipboardError: 'Pano erişiminde bir hata oluştu.',
+  addressRequired: 'Adres zorunludur',
+  wrongAddress: 'Geçersiz adres',
+  addressSameToFrom: 'Adres "Gönderen" adresi ile aynı olamaz',
+  addressCopiedToClipboard: 'Adres başarıyla kopyalandı',
+  haveNotToken: 'Hiç tokeniniz yok',
+  tokenNotFound: 'Token bulunamadı',
+  zod: {
+    bioMaxLength: 'Bio en fazla 50 karakter olmalıdır',
+    invalidCode: 'Kod geçersiz veya yanlış',
+  },
+  solana: {
+    failedPrepareTransaction: 'İşlem hazırlığı başarısız oldu',
+    failedToSwap: 'Takas işlemi başarısız oldu. Lütfen tekrar deneyin.',
+    failedToSend: 'İşlem gönderimi başarısız oldu',
+  },
+  walletManager: {
+    emptyRecoverCode: 'Widi Access Key boş olamaz',
+    someEmptyParameter: 'Bazı parametreler boş',
+    invalidRecoveryCodeFormat: 'Geçersiz Widi Access Key kodu formatı',
+    recoveryCodeNotFound: 'Widi Access Key bulunamadı',
+    recoveryCodeSaveError: 'Widi Access Key kaydedilemedi',
+    walletDataNotFound: 'Cüzdan verisi bulunamadı',
+    walletError: 'Cüzdan verisi hatası',
+  },
+};

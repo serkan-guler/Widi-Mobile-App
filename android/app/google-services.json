@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "916945210636",
+    "project_id": "widi-crypto",
+    "storage_bucket": "widi-crypto.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916945210636:android:25df5ea5fc00d105300d29",
+        "android_client_info": {
+          "package_name": "com.widi.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmScnsepOiBckA-ydo41XwUABGO-LaZE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

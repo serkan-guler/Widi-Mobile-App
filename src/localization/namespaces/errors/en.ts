@@ -1,0 +1,33 @@
+export default {
+  error: 'ERROR',
+  unknownError: 'Unknown error occurred.',
+  context: '{{context}} must be used with a {{context}}Provider',
+  mustSelectFirstPortfolio: 'You must first select a portfolio type.',
+  unsupportedURL: 'This URL is not supported.',
+  selectPhoto: 'An error occurred while selecting the photo.',
+  clipboardError: 'An error occurred while accessing the clipboard.',
+  addressRequired: 'Address is required',
+  wrongAddress: 'Wrong address',
+  addressSameToFrom: 'Address cannot be the same as the "From" address',
+  addressCopiedToClipboard: 'Address copied to clipboard',
+  haveNotToken: 'You do not have any tokens',
+  tokenNotFound: 'Token not found',
+  zod: {
+    bioMaxLength: 'Bio must be at most 50 characters long',
+    invalidCode: 'Code is invalid or incorrect',
+  },
+  solana: {
+    failedPrepareTransaction: 'Failed to prepare transaction',
+    failedToSwap: 'Failed to swap. Please try again.',
+    failedToSend: 'Failed to send transaction',
+  },
+  walletManager: {
+    emptyRecoverCode: 'Widi Access Key cannot be empty',
+    someEmptyParameter: 'Some parameters are empty',
+    invalidRecoveryCodeFormat: 'Invalid Widi Access Key code format',
+    recoveryCodeNotFound: 'Widi Access Key not found',
+    recoveryCodeSaveError: 'Failed to save Widi Access Key',
+    walletDataNotFound: 'Wallet data not found',
+    walletError: 'Wallet data error',
+  },
+};
