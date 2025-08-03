@@ -1,1 +1,0 @@
-![](https://widit.fun/images/widi-button-logo.png)
